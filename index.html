@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stream2Watch: Watch Live NFL, NBA, UFC & CFB Online</title>
+
+    <meta name="description"
+        content="Watch live sports in HD on Stream2Watch. Enjoy NFL, NBA, Soccer, UFC/MMA, Cricket, MLB, NHL, and more with smooth, high-quality streams available on any device.">
+
+    <meta name="keywords"
+        content="Stream2Watch, live sports streaming, watch sports online, NFL live, NBA live, soccer live, UFC live, cricket live, MLB live, NHL live, free sports streams, HD sports streams">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="https://stream2watch.cyou/stream2watch.png">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-container">
+            <a href="/" target="_blank" class="logo">Stream2Watch</a>
+            <nav class="nav-menu">
+                <a href="/page/contact-us/">Conatct-us</a>
+                <a href="/page/terms-of-service/">Terms Of Service</a>
+            </nav>
+        </div>
+    </header>
+    <div style="display:flex; gap:20px; margin:30px auto; justify-content:center; flex-wrap:wrap;">
+        <div onclick="window.location.href='/sport/soccer/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s; margin-bottom:-70px;"
+            onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-soccer.png&h=80&w=80&scale=crop&cquality=40"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">SOCCER</span>
+        </div>
+        <div onclick="window.location.href='/sport/nfl/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png?w=100&h=100&transparent=true"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">NFL</span>
+        </div>
+        <div onclick="window.location.href='/sport/nba/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">NBA</span>
+        </div>
+        <div onclick="window.location.href='/sport/nhl/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">NHL</span>
+        </div>
+        <div onclick="window.location.href='/sport/ufc/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fleagues%2F500%2Fufc.png&w=60&h=60&scale=crop&cquality=80&location=origin"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">UFC</span>
+        </div>
+        <div onclick="window.location.href='/sport/boxing/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-boxing.png&h=80&w=80&scale=crop&cquality=40"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">Boxing</span>
+        </div>
+        <div onclick="window.location.href='/sport/mlb/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png?w=100&h=100&transparent=true"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">MLB</span>
+        </div>
+        <div onclick="window.location.href='/sport/motorsports/';" style="background-color:#f1f3f5; border:1px solid #e1e1e1; border-radius:15px; width:130px; height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; 
+              cursor:pointer; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.05)';"
+            onmouseout="this.style.transform='scale(1)';">
+            <img src="https://a3.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dnascar.png&w=80&h=80&scale=crop&cquality=40&location=origin"
+                style="width:45px; height:45px; margin-bottom:12px;">
+            <span style="
+      background: #e1e1e1;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 8px;
+      padding:4px 10px;
+      color:black;
+      font-size:16px;
+      font-weight:600;
+    ">MotoGp</span>
+        </div>
+    </div>
+    <div class="content-wrapper">
+
+        <div class="sidebar-left">
+            <div class="sidebar-box">
+
+
+                <div class="top-league">Soccer Top Leagues</div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>English Premier League</span>
+                </div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>Spanish LaLiga</span>
+                </div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>UEFA Champions League</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>Bundesliga</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2467.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>UEFA Europa Conference</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>FA CUP</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>UEFA Nations League</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>Major Soccer League</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>Italian Serie A</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/9.png&transparent=true&w=30&h=30"
+                        alt="Top League">
+                    <span>French Ligue 1</span>
+                </div>
+            </div>
+
+            <div class="sidebar-box">
+
+                <div class="top-league">Other Top Leagues</div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png?w=100&h=100&transparent=true"
+                        alt="Top League">
+                    <span>NFL</span>
+                </div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+                        alt="Top League">
+                    <span>NBA</span>
+                </div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+                        alt="Top League">
+                    <span>NHL</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fleagues%2F500%2Fufc.png&w=60&h=60&scale=crop&cquality=80&location=origin"
+                        alt="Top League">
+                    <span>UFC</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-mma.png&h=80&w=80&scale=crop&cquality=40"
+                        alt="Top League">
+                    <span>Boxing</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png?w=100&h=100&transparent=true"
+                        alt="Top League">
+                    <span>MLB</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-nascar.png&h=80&w=80&scale=crop&cquality=40"
+                        alt="Top League">
+                    <span>MotorSports & F1</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <div class="search-box">
+                <label for="search-teams" class="visually-hidden">Search teams</label>
+                <div class="search-inner">
+                    <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+
+                    <input id="search-teams" class="search-input" type="search" placeholder="Search teams"
+                        aria-label="Search teams" />
+                </div>
+            </div>
+            <div class="league-section" id="leagueSection">
+
+
+                
+ <h3 class="league-title">
+    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="NHL" class="league-logo">
+   NBA
+</h3>
+
+
+<div class="match-row" data-id="match3" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="New York Knicks" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+    data-away="Cleveland Cavaliers" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=519"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+            alt="New York Knicks"> <span>New York Knicks</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Cleveland Cavaliers</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png" alt="Cleveland Cavaliers"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:00 AM PKT</small>
+        <div class="match-location">Madison Square Garden</div>
+    </div>
+</div>
+<div class="match-row" data-id="match4" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Charlotte Hornets" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+    data-away="Brooklyn Nets" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=504"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+            alt="Charlotte Hornets"> <span>Charlotte Hornets</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Brooklyn Nets</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png" alt="Brooklyn Nets"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:00 PM AM</small>
+        <div class="match-location">Spectrum Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match5" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Orlando Magic" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+    data-away="Miami Heat" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=521"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+            alt="Orlando Magic"> <span>Orlando Magic</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Miami Heat</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png" alt="Miami Heat"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:00 AM PKT</small>
+        <div class="match-location">Kia Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match6" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Atlanta Hawks" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+    data-away="Toronto Raptors" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=501"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+            alt="Atlanta Hawks"> <span>Atlanta Hawks</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Toronto Raptors</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png" alt="Toronto Raptors"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:30 AM PKT</small>
+        <div class="match-location">State Farm Arena</div>
+    </div>
+</div>
+<div class="match-row" data-id="match7" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Boston Celtics" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
+    data-away="Philadelphia 76ers" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=502"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
+            alt="Boston Celtics"> <span>Boston Celtics</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Philadelphia 76ers</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png" alt="Philadelphia 76ers"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:30 AM PKT</small>
+        <div class="match-location">TD Garden</div>
+    </div>
+</div>
+<div class="match-row" data-id="match8" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Chicago Bulls" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+    data-away="Detroit Pistons" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=505"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+            alt="Chicago Bulls"> <span>Chicago Bulls</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Detroit Pistons</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png" alt="Detroit Pistons"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 05:00 AM PKT</small>
+        <div class="match-location">United Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match9" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Memphis Grizzlies" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+    data-away="New Orleans Pelicans" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=514"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+            alt="Memphis Grizzlies"> <span>Memphis Grizzlies</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>New Orleans Pelicans</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png" alt="New Orleans Pelicans"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 05:00 AM PKT</small>
+        <div class="match-location">FedExForum</div>
+    </div>
+</div>
+<div class="match-row" data-id="match10" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Milwaukee Bucks" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+    data-away="Washington Wizards" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=516"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+            alt="Milwaukee Bucks"> <span>Milwaukee Bucks</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Washington Wizards</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png" alt="Washington Wizards"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 05:00 AM PKT</small>
+        <div class="match-location">Fiserv Forum</div>
+    </div>
+</div>
+<div class="match-row" data-id="match11" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Utah Jazz" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png"
+    data-away="LA Clippers" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png"
+    data-embed="https"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png" alt="Utah Jazz">
+        <span>Utah Jazz</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>LA Clippers</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png" alt="LA Clippers"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 06:00 AM PKT</small>
+        <div class="match-location">Delta Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match12" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Dallas Mavericks" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+    data-away="San Antonio Spurs" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=528"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+            alt="Dallas Mavericks"> <span>Dallas Mavericks</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>San Antonio Spurs</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png" alt="San Antonio Spurs"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 06:30 AM PKT</small>
+        <div class="match-location">American Airlines Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match13" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Phoenix Suns" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png"
+    data-away="Sacramento Kings" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=523"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png" alt="Phoenix Suns">
+        <span>Phoenix Suns</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Sacramento Kings</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png" alt="Sacramento Kings"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 07:00 AM PKT</small>
+        <div class="match-location">Mortgage Matchup Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match14" data-league="NBA"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+    data-home="Portland Trail Blazers" data-home-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png"
+    data-away="Minnesota Timberwolves" data-away-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=531"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png"
+            alt="Portland Trail Blazers"> <span>Portland Trail Blazers</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Minnesota Timberwolves</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png" alt="Minnesota Timberwolves"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 07:00 AM PKT</small>
+        <div class="match-location">Moda Center</div>
+    </div>
+</div>
+	 
+
+	 <h3 class="league-title">
+    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png&w=80&h=80&transparent=true"
+        alt="NHL" class="league-logo">
+   NHL
+</h3>
+
+
+<div class="match-row" data-id="match111" data-league="NHL"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+    data-home="New Jersey Devils" data-home-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+    data-away="Minnesota Wild" data-away-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=233"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+            alt="New Jersey Devils"> <span>New Jersey Devils</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Minnesota Wild</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png" alt="Minnesota Wild"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:00 AM PKT</small>
+        <div class="match-location">Prudential Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match112" data-league="NHL"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+    data-home="Buffalo Sabres" data-home-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
+    data-away="Detroit Red Wings" data-away-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=222"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
+            alt="Buffalo Sabres"> <span>Buffalo Sabres</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Detroit Red Wings</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png" alt="Detroit Red Wings"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 04:30 AM PKT</small>
+        <div class="match-location">KeyBank Center</div>
+    </div>
+</div>
+<div class="match-row" data-id="match113" data-league="NHL"
+    data-league-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+    data-home="Calgary Flames" data-home-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
+    data-away="Montreal Canadiens" data-away-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=223"> <img
+        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true"
+        alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
+            alt="Calgary Flames"> <span>Calgary Flames</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Montreal Canadiens</span> <img
+            src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" alt="Montreal Canadiens"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 05:30 AM PKT</small>
+        <div class="match-location">Scotiabank Saddledome</div>
+    </div>
+</div>
+
+	  <h3 class="league-title">
+    <img src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png&transparent=true&w=30&h=30"
+        alt="NHL" class="league-logo">
+   UEFA Champions League
+</h3>
+
+
+
+
+<div class="match-row" data-id="match50" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Athletic Club"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/93.png" data-away="FK Qarabag"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10414.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=111"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/93.png" alt="Athletic Club">
+        <span>Athletic Club</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>FK Qarabag</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/10414.png"
+            alt="FK Qarabag"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 09:45 PM PKT</small>
+        <div class="match-location">San Mamés</div>
+    </div>
+</div>
+<div class="match-row" data-id="match51" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Galatasaray"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/432.png" data-away="Bodo/Glimt"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=112"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/432.png" alt="Galatasaray">
+        <span>Galatasaray</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Bodo/Glimt</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png"
+            alt="Bodo/Glimt"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 09:45 PM PKT</small>
+        <div class="match-location">RAMS Park</div>
+    </div>
+</div>
+<div class="match-row" data-id="match52" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="AS Monaco"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/174.png" data-away="Tottenham Hotspur"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=113"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/174.png" alt="AS Monaco"> <span>AS
+            Monaco</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Tottenham Hotspur</span> <img
+            src="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" alt="Tottenham Hotspur"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Stade Louis-II</div>
+    </div>
+</div>
+<div class="match-row" data-id="match53" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Atalanta"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/105.png" data-away="Slavia Prague"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/494.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=114"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/105.png" alt="Atalanta">
+        <span>Atalanta</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Slavia Prague</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/494.png"
+            alt="Slavia Prague"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">New Balance Arena</div>
+    </div>
+</div>
+<div class="match-row" data-id="match54" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Bayern Munich"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" data-away="Club Brugge"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=115"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" alt="Bayern Munich">
+        <span>Bayern Munich</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Club Brugge</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+            alt="Club Brugge"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Allianz Arena</div>
+    </div>
+</div>
+<div class="match-row" data-id="match55" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Chelsea"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" data-away="Ajax Amsterdam"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=116"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" alt="Chelsea">
+        <span>Chelsea</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Ajax Amsterdam</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+            alt="Ajax Amsterdam"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Stamford Bridge</div>
+    </div>
+</div>
+<div class="match-row" data-id="match56" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Eintracht Frankfurt"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/125.png" data-away="Liverpool"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=117"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/125.png" alt="Eintracht Frankfurt">
+        <span>Eintracht Frankfurt</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Liverpool</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+            alt="Liverpool"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Deutsche Bank Park</div>
+    </div>
+</div>
+<div class="match-row" data-id="match57" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Real Madrid"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" data-away="Juventus"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=118"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" alt="Real Madrid">
+        <span>Real Madrid</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Juventus</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+            alt="Juventus"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Santiago Bernabéu</div>
+    </div>
+</div>
+<div class="match-row" data-id="match58" data-league="UEFA CHAMPIONS LEAGUE"
+    data-league-logo="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" data-home="Sporting CP"
+    data-home-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" data-away="Marseille"
+    data-away-logo="https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
+    data-embed="https://lotusgamehd.xyz/lotushd.php?hd=119"> <img
+        src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" alt="League Logo" class="league-logo">
+    <div class="match-team"> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" alt="Sporting CP">
+        <span>Sporting CP</span> </div> <span class="match-vs">VS</span>
+    <div class="match-team"> <span>Marseille</span> <img src="https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
+            alt="Marseille"> </div>
+    <div class="match-info"> <small>Oct 22, 2025 – 12:00 AM PKT</small>
+        <div class="match-location">Estádio José Alvalade</div>
+    </div>
+</div>
+
+
+            </div>
+            <article class="buff-article" aria-labelledby="page-title">
+
+
+                <article>
+                    <div class="buff-badge">Live Sports • Stream2Watch</div>
+                    <h1 id="page-title" class="title">
+                        Stream2Watch — Live Sports Streams: NFL, NBA, Soccer, UFC/MMA, MLB, NHL, Cricket & More
+                    </h1>
+
+                    <p class="lead">
+                        Welcome to <strong>Stream2Watch</strong> — the home of nonstop live sports streaming. Whether
+                        it’s
+                        the NFL, NBA, Soccer, UFC/MMA, MLB, Cricket, NHL, or college tournaments, Stream2Watch connects
+                        fans to the action with fast, stable, and mobile-friendly streams. No signups. No popups. Just
+                        pure,
+                        reliable live sports from anywhere in the world.
+                    </p>
+
+                    <p class="lead">
+                        Stream2Watch focuses on simplicity — open the match, pick your stream, and start watching. Every
+                        game card includes team names, competition, kickoff times (auto-adjusted to your timezone), and
+                        live status. We monitor sources around the clock, highlight HD and low-latency options, and
+                        update
+                        mirrors for a smooth viewing experience across all devices.
+                    </p>
+
+                    <!-- NFL -->
+                    <section id="nfl" class="section">
+                        <h2>NFL — Stream Live Football on Stream2Watch</h2>
+                        <p>
+                            From Thursday Night Football to Super Bowl Sunday, <strong>Stream2Watch NFL</strong> brings
+                            you
+                            every touchdown, every highlight, and every playoff moment. Each NFL stream is tested and
+                            labeled
+                            for quality — HD, low latency, or mobile — so you can choose what fits your connection best.
+                        </p>
+                        <p>
+                            Games are organized by week and kickoff time, showing live status in real-time. You’ll find
+                            pre-game analysis, community-tested mirrors, and backup links to ensure no lag during crunch
+                            time.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>Quick NFL Watching Tips</h3>
+                                <ul>
+                                    <li>Test HD streams 5–10 minutes before kickoff.</li>
+                                    <li>Keep backup mirrors in another tab.</li>
+                                    <li>Use Ethernet or Wi-Fi 6 for smooth playback.</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h3>Common NFL Stream Fixes</h3>
+                                <ul>
+                                    <li>If buffering, try a lower bitrate mirror.</li>
+                                    <li>Geo-blocked? Use legal regional broadcasts.</li>
+                                    <li>Refresh at halftime for updated mirrors.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- NBA -->
+                    <section id="nba" class="section">
+                        <h2>NBA — Watch Live Basketball on Stream2Watch</h2>
+                        <p>
+                            Catch every dunk, buzzer-beater, and rivalry game with <strong>Stream2Watch NBA</strong>.
+                            Featuring regular-season clashes, playoffs, and the Finals, all mirrors are optimized for HD
+                            and
+                            high frame-rate action.
+                        </p>
+                        <p>
+                            Each match card highlights live status, team matchups, and start times in your timezone.
+                            Whether
+                            you’re on mobile, tablet, or desktop — Stream2Watch ensures smooth NBA streaming for fans
+                            worldwide.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>NBA Tips</h3>
+                                <ul>
+                                    <li>Choose HD mirrors for better visibility.</li>
+                                    <li>Enable “Cast” for watching on Smart TVs.</li>
+                                    <li>Bookmark team pages for faster access.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Soccer -->
+                    <section id="soccer" class="section">
+                        <h2>Soccer — Global Football on Stream2Watch</h2>
+                        <p>
+                            From the Premier League to UEFA Champions League, La Liga, Serie A, Bundesliga, and MLS —
+                            <strong>Stream2Watch Soccer</strong> gives fans global coverage in one place.
+                            Match cards update daily with kickoff times, match stages, and live status indicators.
+                        </p>
+                        <p>
+                            Each league has dedicated pages, making it easy to find live and upcoming fixtures.
+                            Stream2Watch mirrors are labeled for HD, mobile, or multilingual commentary feeds.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>Soccer Streaming Tips</h3>
+                                <ul>
+                                    <li>Choose 720p+ feeds for match clarity.</li>
+                                    <li>For multi-match viewing, open multiple tabs.</li>
+                                    <li>Use timezone toggle for accurate local times.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- UFC / MMA -->
+                    <section id="mma" class="section">
+                        <h2>UFC & MMA — Fight Nights on Stream2Watch</h2>
+                        <p>
+                            Never miss another punch, submission, or knockout — <strong>Stream2Watch MMA</strong> covers
+                            UFC,
+                            Bellator, PFL, and regional events. Each fight card separates early prelims, prelims, and
+                            main
+                            events with live status and countdown timers.
+                        </p>
+                        <p>
+                            PPV events show official options alongside mirrors. HD and 60fps mirrors ensure sharp
+                            visuals for
+                            intense exchanges. Headphones recommended for full fight commentary experience.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>Fight Night Tips</h3>
+                                <ul>
+                                    <li>Check prelims and main card start times.</li>
+                                    <li>Test streams early for stable playback.</li>
+                                    <li>Keep multiple tabs for quick mirror switching.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- MLB -->
+                    <section id="mlb" class="section">
+                        <h2>MLB — Watch Baseball Live on Stream2Watch</h2>
+                        <p>
+                            Stream2Watch covers the full MLB season — from Opening Day to the World Series. Stream
+                            tested HD
+                            links for every matchup, with updates for doubleheaders, rain delays, and pitcher rotations.
+                        </p>
+                        <p>
+                            Each stream lists team stats, standings, and live updates. Fantasy fans can track stats
+                            while
+                            watching real-time plays without delay.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>MLB Tips</h3>
+                                <ul>
+                                    <li>Use stable connections for long games.</li>
+                                    <li>Check for backup mirrors during extra innings.</li>
+                                    <li>Follow pitcher and lineup changes pre-game.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Cricket -->
+                    <section id="cricket" class="section">
+                        <h2>Cricket — IPL, PSL, BBL & International Matches on Stream2Watch</h2>
+                        <p>
+                            <strong>Stream2Watch Cricket</strong> delivers global coverage of IPL, PSL, BBL, The Ashes,
+                            and
+                            ICC tournaments. Stream formats include T20, ODI, and Test matches, with auto time
+                            adjustment for
+                            your region.
+                        </p>
+                        <p>
+                            Every match card lists toss results, innings progress, and stream availability. Choose HD or
+                            low-latency feeds for best viewing quality depending on your network.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>Cricket Tips</h3>
+                                <ul>
+                                    <li>Use low-latency mirrors for live score sync.</li>
+                                    <li>Switch mirrors if delay increases mid-match.</li>
+                                    <li>Watch replays linked post-match.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- NHL -->
+                    <section id="nhl" class="section">
+                        <h2>NHL — Hockey Streams on Stream2Watch</h2>
+                        <p>
+                            Hockey fans can enjoy live NHL coverage in HD and high frame rate. <strong>Stream2Watch
+                                NHL</strong>
+                            includes pre-season, regular-season, and Stanley Cup matches.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>Hockey Tips</h3>
+                                <ul>
+                                    <li>Pick high frame-rate streams for puck visibility.</li>
+                                    <li>Use headphones for better commentary clarity.</li>
+                                    <li>Test mirrors between periods for smoother replays.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- CFB -->
+                    <section id="cfb" class="section">
+                        <h2>College Football (CFB) — Live on Stream2Watch</h2>
+                        <p>
+                            College football lovers can stream SEC, Big Ten, ACC, and more with live scores, highlights,
+                            and
+                            mirror updates. Bowl games and rivalries are labeled for easy access.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>CFB Tips</h3>
+                                <ul>
+                                    <li>Bookmark team pages for your favorite schools.</li>
+                                    <li>Switch mirrors if a feed drops mid-game.</li>
+                                    <li>Use HD mirrors for better crowd visuals.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- NCAAB -->
+                    <section id="ncaab" class="section">
+                        <h2>NCAAB — College Basketball Streams</h2>
+                        <p>
+                            From early tournaments to March Madness, <strong>Stream2Watch NCAAB</strong> provides stable
+                            mirrors and bracket-based navigation. Low-latency feeds ensure instant reaction during
+                            buzzer-beaters.
+                        </p>
+                        <div class="buff-features">
+                            <div class="card">
+                                <h3>NCAAB Tips</h3>
+                                <ul>
+                                    <li>Choose low-latency streams for live plays.</li>
+                                    <li>Use backup links for big matchups.</li>
+                                    <li>Enjoy replay links post-game.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- General -->
+                    <section id="general" class="section">
+                        <h2>General Tips & Legal Reminder</h2>
+                        <p>
+                            Stream2Watch aggregates links from public sources for easy access. Use updated browsers,
+                            avoid
+                            third-party popups, and prefer official broadcasters when available. Our community actively
+                            reports dead links to keep mirrors current and reliable.
+                        </p>
+                    </section>
+
+                    <!-- FAQ -->
+                    <section id="faqs" class="section">
+                        <h2>Frequently Asked Questions (FAQ)</h2>
+                        <div class="card">
+                            <h3>How do I start watching?</h3>
+                            <p>Click any live match card, choose a working mirror, and enjoy. No sign-up or payment
+                                needed.</p>
+
+                            <h3>Why do streams buffer?</h3>
+                            <p>High demand or slow networks can cause buffering. Try another mirror or lower quality
+                                option.</p>
+
+                            <h3>Can I use Stream2Watch on mobile?</h3>
+                            <p>Yes, Stream2Watch is fully mobile-optimized with tap-to-play support and responsive
+                                layout.</p>
+                        </div>
+                    </section>
+
+                    <!-- Conclusion -->
+                    <section id="conclusion" class="section">
+                        <h2>Conclusion — Stream Live Sports Instantly with Stream2Watch</h2>
+                        <p>
+                            Stream2Watch gives you instant, reliable access to live sports — from NFL and NBA to UFC,
+                            Cricket,
+                            and Soccer. No signups, no hidden steps — just smooth HD streaming for every fan.
+                        </p>
+                        <p>
+                            Enjoy stable, ad-light streams, backup mirrors, and timezone-adjusted schedules for every
+                            sport.
+                            Bookmark Stream2Watch for fast access to all your favorite leagues, all year long.
+                        </p>
+                        <p><strong>Start watching now —</strong> scroll up, pick your league, and go live with
+                            Stream2Watch!</p>
+                    </section>
+                </article>
+            </article>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="league-box">
+
+
+                <div class="featured-events">Featured Events & News</div>
+
+                <div class="poster-container">
+
+                    <div class="poster-card">
+                        <img src="https://platform.mmamania.com/wp-content/uploads/sites/110/2025/07/G1K7YRQWEAAKOPO.jpeg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+                            alt="Event 1">
+                    </div>
+                    <a href="/ufc-321/">
+                        <div class="view-button">Click View Full Detail - UFC 321</div>
+                    </a>
+
+                    <div class="poster-card">
+                        <img src="https://s3.pushplanet.com/users/7159980eb77c47399e26ec02b81f3ddd/uploads/c175cc7d0f494a939f1ec2e30789f5e7/UFC_322_BoutAnn_JdMIM_1200x675.jpg"
+                            alt="Event 2">
+                    </div>
+                    <a href="/ufc-322/">
+                        <div class="view-button">Click View Full Detail - UFC 322</div>
+                    </a>
+                    <div class="poster-card">
+                        <img src="https://cdn.nba.com/manage/2025/08/Teaste-16x9-no-date-1.png" alt="Event 2">
+                    </div>
+                    <span
+                        style="display:inline-block;padding:10px 18px;background: #4caf50;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;cursor:default;opacity:0.9;margin-top: -10px;">
+                        🏀 Today: NBA Regular Season Begins — Watch the Season Opener Live on Stream2Watch for FREE
+                    </span>
+                    <div style="margin-top:10px;font-size:13px;color:#333;text-align:center;margin-top: -15px;">
+                        For more details, click the button above 👆
+                    </div>
+
+
+
+
+                    <a href="/nba-redular-season/">
+                        <div class="view-button">Click View Full Detail - NBA</div>
+                    </a>
+
+
+                    <p
+                        style="text-align:start;background:#111;color:#fff;padding:10px 15px;border-radius:6px;font-size:15px;font-weight:600;margin-top:-10px;">
+                        📰 Waiting, Stream2Watch fans — more exciting new updates & news coming soon!
+                    </p>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="league-box">
+
+                <div class="top-league">Top Teams</div>
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Manchester United</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Arsenal</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Chelsea</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Liverpool</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Manchester City</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Tottenham Hotspur</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/368.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Everton</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/361.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Newcastle United</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Real Madrid</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Barcelona</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Atlatico Madrid</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Juventus</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Milan</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Internazionale</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>PSG</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Bayern Munich</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/375.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Leicester City</span>
+                </div>
+
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/114.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Napoli</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/104.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Roma </span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Borussia Dortmund</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/371.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>West Ham United </span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/176.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Olympique Marseille</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Bayer Leverkusen</span>
+                </div>
+
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Sevilla</span>
+                </div>
+
+
+                <div class="league-item">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/102.png&h=200&w=200"
+                        alt="Top Teams">
+                    <span>Villarreal</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo" aria-label="Footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo" aria-hidden="true">S2W</div>
+                <div>
+                    <div class="brand-name">Stream2Watch</div>
+                    <div class="desc">
+                        Your trusted source for free live sports coverage — from UFC, MMA, and Boxing to NFL, NBA,
+                        and
+                        Soccer.
+                        <br>
+                        Watch all your favorite matches in HD with Stream2Watch. Please enjoy responsibly and comply
+                        with all
+                        regional streaming laws.
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-credits">
+                © <span id="yr"></span> Stream2Watch — All rights reserved.<br>
+                Stream2Watch does not host or transmit any live video content. All links and information are shared
+                for
+                reference and educational purposes only.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('yr').textContent = new Date().getFullYear();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('.match-row').forEach((row) => {
+                row.addEventListener('click', () => {
+                    const iframeUrl = row.dataset.url;
+                    if (iframeUrl) {
+                        const encodedUrl = btoa(iframeUrl);
+
+                        window.location.href = `https://guddu321r.pages.dev?code=${encodedUrl}`;
+                    }
+                });
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const searchInput = document.getElementById("search-teams");
+
+            searchInput.addEventListener("input", function () {
+                const query = this.value.toLowerCase().trim();
+
+                const allMatches = document.querySelectorAll(".match-row");
+                const allTitles = document.querySelectorAll(".league-title");
+
+                if (query === "") {
+                    allMatches.forEach(match => match.style.display = "flex");
+                    allTitles.forEach(title => title.style.display = "flex");
+                    return;
+                }
+
+                allMatches.forEach(match => match.style.display = "none");
+                allTitles.forEach(title => title.style.display = "none");
+
+                let matchedLeagues = new Set();
+
+                allMatches.forEach(match => {
+                    const home = match.dataset.home.toLowerCase();
+                    const away = match.dataset.away.toLowerCase();
+                    const league = match.dataset.league.toLowerCase();
+
+                    if (home.includes(query) || away.includes(query) || league.includes(query)) {
+                        match.style.display = "flex";
+                        matchedLeagues.add(league);
+                    }
+                });
+
+                allTitles.forEach(title => {
+                    const leagueName = title.textContent.trim().toLowerCase();
+                    if (matchedLeagues.has(leagueName)) {
+                        title.style.display = "flex";
+                    }
+                });
+            });
+        });
+
+        const leagueSection = document.getElementById("leagueSection");
+
+        if (leagueSection.children.length === 0) {
+            leagueSection.innerHTML = "<p style='color:black; text-align:center; font-weight: 600; margin-top:20px;'>No match today</p>";
+        }
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.body.addEventListener("click", (e) => {
+                let row = e.target.closest(".match-row");
+                if (!row) return;
+
+                let params = new URLSearchParams({
+                    id: row.dataset.id,
+                    league: row.dataset.league,
+                    leagueLogo: row.dataset.leagueLogo,
+                    home: row.dataset.home,
+                    homeLogo: row.dataset.homeLogo,
+                    away: row.dataset.away,
+                    awayLogo: row.dataset.awayLogo,
+                    embed: row.dataset.embed
+                });
+
+                window.location.href = "/match.html?" + params.toString();
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const leagueItems = document.querySelectorAll('.league-item');
+            const leagueSection = document.getElementById('leagueSection');
+            const allMatches = document.querySelectorAll('.match-row');
+
+            leagueItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const name = item.querySelector('span').textContent.trim();
+                    leagueSection.innerHTML = '';
+
+                    const filteredMatches = Array.from(allMatches).filter(match => {
+                        const league = match.dataset.league.toLowerCase();
+                        const home = match.dataset.home.toLowerCase();
+                        const away = match.dataset.away.toLowerCase();
+                        return league.includes(name.toLowerCase()) || home.includes(name.toLowerCase()) || away.includes(name.toLowerCase());
+                    });
+
+                    if (filteredMatches.length > 0) {
+                        filteredMatches.forEach(match => {
+                            leagueSection.appendChild(match.cloneNode(true));
+                        });
+                    } else {
+                        leagueSection.innerHTML = `<div class="no-match">No matches for <strong>${name}</strong> today.</div>`;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
